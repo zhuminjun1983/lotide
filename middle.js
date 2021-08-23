@@ -11,9 +11,7 @@ const middle = function(array) {
       return array_result = array[(array.length - 1) / 2];
     }
 };
-console.log(middle([1])) // => []
-console.log(middle([1, 2])) // => []
-console.log(middle([1, 2, 3])) // => [2]
-console.log(middle([1, 2, 3, 4, 5])) // => [3]
-console.log(middle([1, 2, 3, 4]))// => [2, 3]
-console.log(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
+const assertArraysEqual = require('./assertArraysEqual');
+module.exports = middle;
+
+
