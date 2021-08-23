@@ -13,5 +13,6 @@ const assertArraysEqual = function(a,b) {
       console.log("Assertion Failed: " + a + " !== " + b)
     }
 }
-// TEST CODE
-assertArraysEqual(['jj','dd','ee'], [1, 2, 3])
+
+module.exports = assertArraysEqual;
+
